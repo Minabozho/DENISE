@@ -1,0 +1,11 @@
+Num_particles 64
+N_threads 4
+TotalMass 1000
+dt_factor 0.003
+N_output 6
+t_final 0.5
+smoothing_length 0.01
+InitialCondition 1
+Radius 7
+alpha 0.6
+replot false
