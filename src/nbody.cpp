@@ -62,7 +62,7 @@ void nbody::do_plot()
     std::string gp_script="gp_script.txt";
     std::string dateinameout,dateiname_plot;
     dateinameout=directory+gp_script;
-    dateiname_plot="test";
+    dateiname_plot="output";
     std::ofstream dat_out;
     dat_out.open(dateinameout.c_str(),std::ios_base::out);
     if(!dat_out)
@@ -89,7 +89,7 @@ void nbody::do_plot()
         for(short nout=0;nout<num_out;++nout)
         {
             str_nout=add_leading_zeros(nout);
-            dat_out<<"set title \""<<"Particle Cluster   t="<<times_out[nout]<<"             "<<std::endl;
+            dat_out<<"set title \""<<"Star Cluster   t="<<times_out[nout]<<"             "<<std::endl;
             dat_out<<"set output \""+directory_plots+dateiname_plot<<"_"<<nout<<".jpeg"<<std::endl;
             dat_out<<"splot ";
 
