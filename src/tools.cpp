@@ -55,5 +55,5 @@ void make_dir(const std::string &name)
 {
     std::string command="mkdir -p "+name;
     popen(command.c_str(),"w");
-    sleep(5); //because it takes a while until the directory is created 
+    sleep(1); //because it takes a while until the directory is created 
 }
