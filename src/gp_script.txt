@@ -1,0 +1,30 @@
+reset
+set terminal jpeg size 640,480 enhanced font "Helvetica" 14
+set encoding iso_8859_1
+set xrange[-10:10]
+set yrange[-10:10]
+set zrange[-10:10]
+set title "Particle Cluster   t=0             
+set output "plots/test_0.jpeg
+splot "data/output_0000.txt" using ($2):($3):($4) title "Stars" with points lt 2 lw 2 lc 1 ,\
+
+set title "Particle Cluster   t=0.1             
+set output "plots/test_1.jpeg
+splot "data/output_0001.txt" using ($2):($3):($4) title "Stars" with points lt 2 lw 2 lc 1 ,\
+
+set title "Particle Cluster   t=0.2             
+set output "plots/test_2.jpeg
+splot "data/output_0002.txt" using ($2):($3):($4) title "Stars" with points lt 2 lw 2 lc 1 ,\
+
+set title "Particle Cluster   t=0.3             
+set output "plots/test_3.jpeg
+splot "data/output_0003.txt" using ($2):($3):($4) title "Stars" with points lt 2 lw 2 lc 1 ,\
+
+set title "Particle Cluster   t=0.4             
+set output "plots/test_4.jpeg
+splot "data/output_0004.txt" using ($2):($3):($4) title "Stars" with points lt 2 lw 2 lc 1 ,\
+
+set title "Particle Cluster   t=0.5             
+set output "plots/test_5.jpeg
+splot "data/output_0005.txt" using ($2):($3):($4) title "Stars" with points lt 2 lw 2 lc 1 ,\
+
