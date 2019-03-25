@@ -6,4 +6,4 @@ go to 'src' and build the executable:
 g++ -std=c++11 -pthread main.cpp -o DENISE
 
 USAGE:
-modify 'parameters.txt' and make sure it is in the same directory as the executable
+modify 'parameters.txt' and execute the binary in the same directory
