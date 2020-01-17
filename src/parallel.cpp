@@ -204,17 +204,3 @@ domain* &parallel_data::operator [](const unsigned int i)
 {
     return a[i];
 }
-
-void parallel_data::show_data()  //only for debugging
-{
-    short B=2*N_threads-1;
-    for(short loopB=0;loopB<B;++loopB)
-    {
-        std::cout<<a[0][loopB];
-        for(short loopT=1;loopT<N_threads;++loopT)
-        {
-            std::cout<<" | "<<a[loopT][loopB];
-        }
-        std::cout<<std::endl;
-    }
-}
