@@ -53,7 +53,7 @@ parameter::parameter(const std::string& filename)
     smoothing_length2=smoothing_length*smoothing_length;
     //check that N_threads is 2^n with n element of natural numbers;
     N_threads=smaller_2n(N_threads);
-    //ensure suitable number of paritcles
+    //ensure suitable number of particles
     N=ceil((double)N/(2*N_threads))*2*N_threads;
     display_parameter();
 }
