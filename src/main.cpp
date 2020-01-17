@@ -95,11 +95,8 @@ int main()
     cout<<"  Make plots"<<endl;
     sim.do_plot();
     cout<<endl;
-    //cout<<"  ______________________________________________________  "<<endl;
     cout<<"  ======================================================  "<<endl;
-    //cout<<"                                                        "<<endl;
     cout<<"                         The End                          "<<endl;
-    //cout<<"                                                        "<<endl;
     cout<<"  ======================================================  "<<endl;
 
     pthread_exit(NULL);
