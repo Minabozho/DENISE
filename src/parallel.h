@@ -64,7 +64,6 @@ public:
     ~parallel_data();
     void initialize(short N_threads_in, unsigned int N);
     domain* &operator[](const unsigned i);
-    void show_data();
 private:
     short N_threads;
     domain **a;
