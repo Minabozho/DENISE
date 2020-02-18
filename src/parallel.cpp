@@ -97,8 +97,7 @@ domain::~domain()
 
 void domain::triangle(unsigned int x_first, unsigned int y_first)
 {
-    unsigned int length=sqrt(N_pairs);
-    short loopp=0;
+    unsigned int loopp=0;
     for(unsigned int loopx=x_first;loopp<N_pairs;++loopx)
     {
         for(unsigned int loopy=y_first;loopy<y_first+(loopx-x_first)+1;++loopy)
@@ -113,7 +112,7 @@ void domain::triangle(unsigned int x_first, unsigned int y_first)
 void domain::square(unsigned int x_first, unsigned int y_first)
 {
     unsigned int length=sqrt(N_pairs);
-    short loopp=0;
+    unsigned int loopp=0;
     for(unsigned int loopx=x_first;loopx<x_first+length;++loopx)
     {
         for(unsigned int loopy=y_first;loopy<y_first+length;++loopy)
