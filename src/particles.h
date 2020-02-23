@@ -1,6 +1,6 @@
 /*******************************************************************************
  * This file is part of DENISE.
- * Copyright (c) 2019 Moritz Fischer (moritz.s.fischer@eclipso.de)
+ * Copyright (c) 2019 Moritz Fischer (mail@moritzfischer.world)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published
